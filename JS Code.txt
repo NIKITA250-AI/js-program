@@ -1,5 +1,0 @@
-String tasks = ["Complete report","Attend meeting", "Reply to emails", "Prepare presentation", "Review code"]
-tasks.shift();
-tasks.unshift("Fix urgent bug", "Schedule client call");
-tasks[tasks.length - 1] = "Update documentation";
-console.log("Updated Task List:", tasks);
