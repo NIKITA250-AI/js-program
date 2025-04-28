@@ -1,0 +1,15 @@
+function Student(name,age,marks){
+this.name=name
+this.age=age
+this.marks=marks
+
+this.calculateAverage=function(){
+    let total=0
+    for(let i=0;i<this.marks.length;i++){
+        total+=this.marks[i]
+}
+return Math.floor(total/this.marks.length)
+}
+}
+let Student1=new.Student("Emity",20[85,90,92])
+console.log(Student1.calculateAverage())
